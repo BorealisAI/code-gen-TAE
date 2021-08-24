@@ -94,6 +94,7 @@ def remove_spaces(mistake, intent):
             ast.parse(no_space)
         except:
             if final_code_valid == True:
+                pass
                 #print("syntax error")
                 #print(final_code)
                 #print(no_space)
